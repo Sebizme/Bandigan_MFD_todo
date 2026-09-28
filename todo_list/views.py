@@ -14,7 +14,7 @@ def home(request):
     return render(request, 'home.html', context)
 
 def about(request):
-    context = {'myname': 'Bob'}
+    context = {'myname': 'Sean Bandigan'}
     return render(request, 'about.html', context)
 
 def delete(request, list_id):
